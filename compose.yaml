@@ -1,6 +1,6 @@
 services:
   glance:
-    container_name: glance
+    container_name: glance3
     image: glanceapp/glance
     restart: unless-stopped
     volumes:
